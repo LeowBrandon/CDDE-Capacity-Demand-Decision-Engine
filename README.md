@@ -1,8 +1,10 @@
 ### Please download the zip file for reference
 
-Run the following commands in **PowerShell**:
+Extract the ZIP, open PowerShell in the cdde_prototype folder, then
+run the following commands in **PowerShell**:
 
 ```powershell
+cd "C:\Users\user\Downloads\cdde_prototype\cdde_prototype"
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
